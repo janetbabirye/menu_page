@@ -1,7 +1,6 @@
 .page{
     border: solid purple;
     border-radius: 300px;
-    margin: 50px;
     text-align: center;
     align-content: center;
     background-color: blueviolet;
@@ -26,12 +25,14 @@ p{
 #food{
     display: flex;
     flex-direction: row;
-    padding-left: 150px;
+    padding-left: 50px;
+    margin-left: -50px;
 }
 #juice{
     display: flex;
     flex-direction: row;
     padding-left: 300px;
+    margin-left: -90px;
 }
 img{
     width: 150px;
