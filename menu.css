@@ -1,12 +1,12 @@
 .page{
     border: solid purple;
     border-radius: 300px;
-    margin: 200px;
+    margin: 50px;
     text-align: center;
     align-content: center;
     background-color: blueviolet;
     font-size: 20px;
-    padding: 5px;
+    padding: 2px;
     width: fit-content;
 
 }
@@ -31,10 +31,13 @@ p{
 #juice{
     display: flex;
     flex-direction: row;
-    padding-left: 150px;
+    padding-left: 300px;
 }
 img{
     width: 150px;
     height: 150px;
     border-radius: 20px;
+}
+img:hover{
+    border-radius: 50%;
 }
